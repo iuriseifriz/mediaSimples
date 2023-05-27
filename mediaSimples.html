@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A média entre | Média Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.5.1.min.js"></script>
+
+    <header>
+        <h1>Média Simples</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <h2>A média entre:</h2>
+            <form action="" method="post">
+                <label><input type="button" id="button1" name="add" value="Adicionar + Números" /></label>
+                <label><br>
+                <input type="number" name="number"/></label>
+                <label><br>
+                <input type="number" name="number" /></label>
+            </form>
+            <a id="inputs_adicionais">
+            </a>
+            <h2>É igual a:</h2>
+            <br>
+        </div>
+        <div>
+            <p id="res"></p>
+            <input type="button" id="button2" value="Calcular" onclick="contar()">
+        </div>
+    </section>
+    <footer>
+        <p style="font-size: small;">by Iuri Seifriz</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
